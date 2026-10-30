@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class StudentScoreDatabase{
+    public static void main(String[]args){
+    
+        Scanner scanner = new Scanner(in);
+        System.out.println("!!!=> WELCOME TO LAGBAJA SCHOOL RECORDS <=!!!");
+        System.out.println("_=_=> WHICH GRADE'S RECORD DO YOU WISH TO CREATE: <=_=_"); 
+            int grade =  scanner.nextInt();
+            
+        System.out.println("Number of students please: ");
+            int numberOfStudents = scanner.nextInt();
+        System.out.println("Saved--->");
+            
+        System.out.println("Number of subjects taken please");
+            int numberOfSubjects = scanner.nextInt();
+        System.out.println("Saved--->");
+                                
+        System.out.printf("_=_=> CREATING GRADE /d RECORDS SHEET <=_=_",grade);
+            int [][] recordBook = new int [numberOfStudents][numberOfSubjects];
+             for (int index = 0 ; index < numberOfStudents; index++){
+                System.out.println("NEW STUDENT:");
+                for(int index_a = 0; index_a < numberOfSubjects; index_a++){
+                    System.out.println("ENTER STUDENTS SUBJECT SCORE");
+                    recordBook [index][index_a] = scanner.nextInt();
+                }
+             }
+        
+        
+            
+            
+         
+            
+            
+            
+            
+            
+        
+        
+ }
+} 
+        
+        
