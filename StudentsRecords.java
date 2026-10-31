@@ -183,7 +183,7 @@ public class StudentsRecords{
         System.out.printf("Class total score is: %d%n", classTotal);
         System.out.printf("Class average score is: %.1f%n", classTotal / (double) numberOfStudents);
         System.out.println("=======================================================================");
-        System.out.println("THANK YOU FOR USING OUR RECORD SYSTEM!\(O-O)/");
+        System.out.println("THANK YOU FOR USING OUR RECORD SYSTEM!\\(O-O)/");
         
  }
 } 
